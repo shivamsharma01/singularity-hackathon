@@ -1,0 +1,49 @@
+<section class="container">
+  <h3 class="header-title">Select The model</h3>
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-4 col-sm-6 mt-4 mt-md-0">
+        <div class="custom-control custom-radio mb-3">
+          <input
+            (click)="onModelSelect('ml')"
+            name="custom-radio"
+            class="custom-control-input"
+            id="customRadio1"
+            type="radio"
+          />
+          <label class="custom-control-label" for="customRadio1">
+            <span>Deep Learning (Baseline)</span>
+          </label>
+        </div>
+      </div>
+      <div class="col-lg-4 col-sm-6 mt-4 mt-md-0">
+        <div class="custom-control custom-radio mb-3">
+          <input
+            (click)="onModelSelect('dl')"
+            name="custom-radio"
+            class="custom-control-input"
+            id="customRadio2"
+            type="radio"
+          />
+          <label class="custom-control-label" for="customRadio2">
+            <span>Machine Learning (Baseline)</span>
+          </label>
+        </div>
+      </div>
+      <div class="col-lg-4 col-sm-6 mt-4 mt-md-0">
+        <div class="custom-control custom-radio mb-3">
+          <input
+            (click)="onModelSelect('rcnn')"
+            name="custom-radio"
+            class="custom-control-input"
+            id="customRadio3"
+            type="radio"
+          />
+          <label class="custom-control-label" for="customRadio3">
+            <span>Deep Learning (Faster-RCNN)</span>
+          </label>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>

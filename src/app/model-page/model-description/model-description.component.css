@@ -1,0 +1,5 @@
+h1 {
+  color: var(--color-text-h1);
+  margin-bottom: 0.25em;
+  font-size: 4em;
+}
